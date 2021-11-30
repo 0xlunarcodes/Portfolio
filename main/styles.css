@@ -1,0 +1,93 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+html, body
+{
+    background-color: rgb(17, 17, 17);
+    margin: 0;
+    padding: 0;
+}
+
+.main-header
+{
+    background-color: rgb(34, 33, 33);
+    border-bottom: 5px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav
+{
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+
+}
+
+.main-nav ul
+{
+    padding-inline-start: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+.main-nav li
+{
+    display: inline-block;
+    padding: .5em;
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    text-align: left;
+}
+
+.title-large
+{
+    color: black;
+    text-shadow: rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) 1.75517px 0.958851px 0px, rgb(255, 255, 255) 1.0806px 1.68294px 0px, rgb(255, 255, 255) 0.141474px 1.99499px 0px, rgb(255, 255, 255) -0.832294px 1.81859px 0px, rgb(255, 255, 255) -1.60229px 1.19694px 0px, rgb(255, 255, 255) -1.97998px 0.28224px 0px, rgb(255, 255, 255) -1.87291px -0.701566px 0px, rgb(255, 255, 255) -1.30729px -1.5136px 0px, rgb(255, 255, 255) -0.421592px -1.95506px 0px, rgb(255, 255, 255) 0.567324px -1.91785px 0px, rgb(255, 255, 255) 1.41734px -1.41108px 0px, rgb(255, 255, 255) 1.92034px -0.558831px 0px;    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1%;
+}
+
+.title-thin-txt
+{
+    font-weight: lighter;
+    margin: 0;
+}
+
+.subtxt-nogap
+{
+    margin: 0;
+}
+
+.featured
+{
+    background-image: url("img/clock-prev.jpg");
+    background-size: cover;
+    background-position-y: 5175px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.app-li
+{
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    list-style: none;
+    display: inline-block;
+    font-size: x-large;
+    padding: 20px;
+
+}
+
+
+.app-item 
+{
+    display: inline-block;
+}
+
+.app-img
+{
+    width: 400px;
+}
