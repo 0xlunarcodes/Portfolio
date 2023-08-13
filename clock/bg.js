@@ -1,20 +1,19 @@
 const body = document.querySelector("body");
-
-const IMG_NUMBER = 7;
+const numberOfImages = 7;
 
 function handleImgLoad() {
     console.log("finished");
 }
 
-function paintImage(IMG_NUMBER) {
+function paintImage(num) {
     const image = new Image();
-    image.src = `img/${IMG_NUMBER + 1}.jpg`;
+    image.src = `img/${num + 1}.jpg`;
     image.classList.add('bgImage');
     body.prepend(image);
 }
 
 function genRandom() {
-    const number = Math.floor(Math.random() * IMG_NUMBER);
+    const number = Math.floor(Math.random() * numberOfImages);
     return number;
 }
 
